@@ -61,3 +61,13 @@ img {
     padding: 1rem;
     border-radius: 1rem;
 }
+
+/* Responsive */
+@media  screen and (max-width: 900px) {
+    .choices {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 1.5rem;
+    }
+}
